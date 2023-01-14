@@ -17,7 +17,7 @@ public class stepsLogin {
 
     String REQUEST_BODY= "{\n" +
             "  \"username\": \"DaniMB95\",\n" +
-            "  \"password\": \"Testing1234\" \n}";
+            "  \"password\": \"Testing785\" \n}";
     @Given("The user have and account in the page")
     public void The_user_have_and_account_in_the_page() {
         RestAssured.baseURI = "https://test-api.k6.io";
